@@ -1,4 +1,4 @@
-# Amazon Sales Analysis & Performance Dashboard
+# Amazon Sales Analysis Dashboard
 
 ## 1. Project Overview
 This project provides a comprehensive analysis of Amazon sales data. The primary goal is to identify sales trends, evaluate product and category performance, and deliver actionable insights through a dynamic, interactive dashboard. The entire analysis was conducted using Microsoft Power BI, showcasing a complete workflow from data extraction to visualization.
