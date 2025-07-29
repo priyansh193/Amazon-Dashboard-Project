@@ -1,70 +1,43 @@
-# AMAZON_POWERBI_DASHBOARD
+# Amazon Sales Analysis & Performance Dashboard
+![logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fkoto.studio%2Fwork%2Famazon%2F&psig=AOvVaw3tX_XdhvDTsW8rGitJTX0r&ust=1753866221550000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDFyvra4Y4DFQAAAAAdAAAAABAE)
 
+## 1. Project Overview
+This project provides a comprehensive analysis of Amazon sales data. The primary goal is to identify sales trends, evaluate product and category performance, and deliver actionable insights through a dynamic, interactive dashboard. The entire analysis was conducted using Microsoft Power BI, showcasing a complete workflow from data extraction to visualization.
 
-📊 Amazon Sales Data Analysis – Power BI Dashboard
-This project showcases a professional-level Power BI Dashboard developed using Amazon sales data. The goal is to uncover meaningful business insights through data modeling, DAX measures, and interactive visuals.
+## 2. Tools Used
+Microsoft Power BI Desktop: The core tool used for data modeling, analysis, and creating the interactive dashboard.
 
-🎯 Project Objectives
-Analyze and visualize Amazon's sales performance
+Power Query: Utilized within Power BI for the Extract, Transform, and Load (ETL) process. It was instrumental in cleaning, shaping, and preparing the raw data for analysis.
 
-Track revenue trends and product performance
+DAX (Data Analysis Expressions): Employed to create custom calculations and key performance indicators (KPIs) that are central to the analysis.
 
-Identify high-performing cities, segments, and categories
+## 3. Project Workflow
+The analysis was executed following a structured business intelligence workflow:
 
-Provide key KPIs for executive-level decision-making
+Data Transformation (ETL): The initial dataset was loaded into Power BI's Power Query Editor. In this stage, data was cleaned to handle any inconsistencies, data types were corrected, and the dataset was optimized for performance.
 
-Build an interactive dashboard using Power BI visuals
+Data Modeling: A simple but effective data model was created. It consists of the main Amazon_Data fact table and a Calender Table dimension, which allows for robust time intelligence analysis.
 
+DAX Calculations: Several key measures were written using DAX to provide deep insights into sales performance over time. These include:
 
+YTD Sales (Year-to-Date Sales)
 
-📈 Key Results & Insights
-Based on the Power BI dashboard, the following business insights were drawn:
+QTD Sales (Quarter-to-Date Sales)
 
-📌 Area	🔍 Insight Summary
-Total Sales & Orders	Provided overall sales, order count, and profit KPIs
-Top Cities by Revenue	Mumbai, Delhi, and Bangalore showed highest sales
-Segment-wise Performance	The Consumer segment contributed most to revenue
-Category and Sub-category	Office Supplies and Technology led in sales volume
-Monthly Sales Trend	Sales peaked during Diwali and festive seasons
-Profitability Analysis	Certain product lines had high sales but low profit
-Customer Region Insights	Western and Southern regions performed strongest
-Top Products	Visualized best-selling SKUs with unit-wise revenue
+YTD Product Sold
 
-📊 Dashboard Features
-KPIs (Sales, Profit, Quantity, Orders)
+YTD Reviews
 
-Slicers for dynamic filtering (City, Segment, Category, Date)
+Dashboard Visualization: A one-page summary dashboard was designed to present the findings. It includes interactive filters, KPI cards, and various visuals to tell a clear story about the sales performance.
 
-Clustered bar charts, line graphs, pie charts
+## 4. Data Model
+The data model connects the main sales data with a dedicated date table, which is a best practice in Power BI for time-based analysis. This enables easy filtering and slicing of data by year, quarter, and month.
+![Model](/workspaces/Amazon-Dashboard-Project/Images/Model.png)
 
-Trend analysis by month and year
+## 5. Dashboard & Key Insights
+The summary dashboard provides a high-level overview of key business metrics and trends.
 
-Drill-down capabilities for deep insights
+![Dashboard](/workspaces/Amazon-Dashboard-Project/Images/Summary.png)
 
-Clean, responsive design optimized for reporting
-
-🛠 Tools Used
-Power BI Desktop
-
-Excel (for raw data preprocessing)
-
-DAX (Data Analysis Expressions)
-
-Power Query (ETL inside Power BI)
-
-
-🚀 How to View This Project
-Download the .pbix file from this repository
-
-Open it in Power BI Desktop
-
-Interact with slicers and visuals to explore insights
-
-📚 Business Recommendations
-📦 Stock more high-demand items in Western and Southern regions
-
-🎯 Focus on Consumer and Corporate segments for highest ROI
-
-🎁 Launch offers during peak festive months (Oct–Dec)
-
-📊 Optimize pricing for low-profit, high-sales items
+## 6. Conclusion
+This Power BI project successfully translates raw Amazon sales data into a powerful strategic asset. The dashboard reveals clear seasonal patterns, identifies top-performing product categories, and highlights key products. These insights can be used to make data-driven decisions regarding inventory management, marketing campaigns, and strategic focus for the upcoming year.
