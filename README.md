@@ -1,5 +1,4 @@
 # Amazon Sales Analysis & Performance Dashboard
-![logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fkoto.studio%2Fwork%2Famazon%2F&psig=AOvVaw3tX_XdhvDTsW8rGitJTX0r&ust=1753866221550000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDFyvra4Y4DFQAAAAAdAAAAABAE)
 
 ## 1. Project Overview
 This project provides a comprehensive analysis of Amazon sales data. The primary goal is to identify sales trends, evaluate product and category performance, and deliver actionable insights through a dynamic, interactive dashboard. The entire analysis was conducted using Microsoft Power BI, showcasing a complete workflow from data extraction to visualization.
@@ -32,12 +31,12 @@ Dashboard Visualization: A one-page summary dashboard was designed to present th
 
 ## 4. Data Model
 The data model connects the main sales data with a dedicated date table, which is a best practice in Power BI for time-based analysis. This enables easy filtering and slicing of data by year, quarter, and month.
-![Model](/workspaces/Amazon-Dashboard-Project/Images/Model.png)
+![Model](/Images/Model.png)
 
 ## 5. Dashboard & Key Insights
 The summary dashboard provides a high-level overview of key business metrics and trends.
 
-![Dashboard](/workspaces/Amazon-Dashboard-Project/Images/Summary.png)
+![Dashboard](/Images/Summary.png)
 
 ## 6. Conclusion
 This Power BI project successfully translates raw Amazon sales data into a powerful strategic asset. The dashboard reveals clear seasonal patterns, identifies top-performing product categories, and highlights key products. These insights can be used to make data-driven decisions regarding inventory management, marketing campaigns, and strategic focus for the upcoming year.
